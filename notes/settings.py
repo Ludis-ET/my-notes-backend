@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'notes.wsgi.application'
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': os.getenv('PGDATABASE'),
+    'NAME': 'notes',
     'USER': os.getenv('PGUSER'),
     'PASSWORD': os.getenv('PGPASSWORD'),
     'HOST': os.getenv('PGHOST'),
