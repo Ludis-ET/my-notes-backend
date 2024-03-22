@@ -51,7 +51,9 @@ ROOT_URLCONF = 'notes.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'apple-notes/dist'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
